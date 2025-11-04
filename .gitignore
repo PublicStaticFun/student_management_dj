@@ -1,0 +1,60 @@
+# --- Django / Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.sqlite3-journal
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+media/                    # Carpeta media para archivos subidos (fotos)
+staticfiles/              # Carpeta estática generada (si aplica)
+*.log
+
+# Django local settings y bases de datos
+local_settings.py
+
+# --- Node.js / React ---
+node_modules/             # Dependencias de frontend
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# --- Archivos react específicos ---
+/student-frontend/build/
+# Si usas tailwind o postcss, ignora sus caches si existen
+postcss.config.js         # solo si no lo quieres versionar, en tu caso esta modificado
+
+# --- Config y entorno ---
+.env                      # Variables de entorno para backend y frontend
+.student-frontend/.env     # si tienes un .env dentro del frontend
+.env.*                    # Cualquier archivo env
+
+# --- IDEs y OS ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Otros ---
+# Archivos de sistema, temporales, etc.
+*.tmp
+*.temp
+
+# --- Ignorar archivos de paquetes ---
+*.tgz
+*.gz
