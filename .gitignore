@@ -54,6 +54,7 @@ logs/
 # Archivos de sistema, temporales, etc.
 *.tmp
 *.temp
+media/profile_photos
 
 # --- Ignorar archivos de paquetes ---
 *.tgz
